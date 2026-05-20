@@ -33,6 +33,9 @@ The EDA explored:
 - Potential outliers affecting regression results
 - Audit class imbalance, where **76.85%** of records were in one class and **23.15%** were in the other
 
+### Audit Class Imbalance
+![Audit Class Imbalance](audit-class-imbalance.png)
+
 ## Modeling Workflow
 
 ### Regression Analysis
@@ -46,6 +49,9 @@ Multiple classification models were evaluated to predict **Audit_Type**, includi
 - Random Forest
 
 The project prioritized **recall for the audit-positive class**, since identifying individuals who should be audited was more important than only maximizing overall accuracy.
+
+### Classification Model Comparison
+![Classification Model Comparison](classification-model-comparison.png)
 
 ## Key Findings
 - The dataset contained **2,000 observations**
